@@ -1,6 +1,6 @@
 FROM ubuntu:jammy
 
-RUN apt-get update && apt-get install -y openssh-client && apt-get install -y wg                                           et
+RUN apt-get update && apt-get install -y openssh-client && apt-get install -y wget
 SHELL ["/bin/bash", "-c"]
 
 # here are some default values (can be overwritten by an env.txt for instance)
